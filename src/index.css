@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+
+  --font-sans: "Inter", sans-serif;
+
+  --color-neutral-900 : #000000;
+  --color-neutral-800: #303030;
+  --color-neutral-500: #808080;
+  --color-neutral-0: #FFFFFF;
+
+  --spacing-0: '0px';
+  --spacing-025: '2px';
+  --spacing-050: '4px';
+  --spacing-075: '6px';
+  --spacing-100: '8px';
+  --spacing-125: '10px';
+  --spacing-150: '12px';
+  --spacing-200: '16px';
+  --spacing-250: '20px';
+  --spacing-300: '24px';
+  --spacing-400: '32px';
+  --spacing-500: '40px';
+  --spacing-600: '48px';
+  --spacing-800: '64px';
+  --spacing-1000: '80px';
+  --spacing-1200: '96px';
+  --spacing-1400: '112px';
+  --spacing-1600: '128px';
+  --spacing-1800: '140px';
+
+}
