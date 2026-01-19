@@ -1,3 +1,3 @@
 import { api } from "./axiosInstance";
 
-export const getRandomQuote = () => api.get("/api/api-quote.js");
+export const getRandomQuote = () => api.get("/api/api-quote");
