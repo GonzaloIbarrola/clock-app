@@ -12,14 +12,20 @@ export default async function handler(req, res) {
       "https://api.quotable.io/random?maxLength=140"
     );
 
+    // Esto asegura que si falla la API externa, veas el error
     if (!response.ok) {
-      throw new Error(`Error en la API externa: ${response.status}`);
+      return res.status(500).json({ error: `Status ${response.status}` });
     }
 
     const data = await response.json();
-    res.status(200).json(data);
+
+    // Solo devolvemos lo que necesitamos
+    res.status(200).json({
+      content: data.content,
+      author: data.author
+    });
   } catch (error) {
-    console.error(error); // <-- esto ayuda a ver qué falla en Vercel
+    console.error("Error en serverless:", error.message);
     res.status(500).json({ error: error.message });
   }
 }
