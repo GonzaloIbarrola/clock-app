@@ -4,5 +4,5 @@ import { getRandomQuote } from "../api/quotable";
 export const useQuote = () => 
   useQuery({
     queryKey: ["quote"],
-    queryFn: getRandomQuote()
+    queryFn: getRandomQuote
   });
