@@ -1,3 +1,12 @@
-import { api } from "./axiosInstance";
+import axios from "axios";
 
-export const getRandomQuote = () => api.get("api-quote");
+export const getRandomQuote = async () => {
+  const { data } = await axios.get("/api/quote", {
+    params: {
+      minLength: 50,
+      maxLength: 150,
+    },
+  });
+
+  return data;
+};
