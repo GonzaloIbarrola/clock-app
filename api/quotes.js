@@ -2,13 +2,8 @@ import axios from "axios";
 
 export default async function handler(req, res) {
   try {
-    const { minLength = 50, maxLength = 150 } = req.query;
-
     const response = await axios.get(
-      "https://quoteslate.vercel.app/api/quotes/random",
-      {
-        params: { minLength, maxLength },
-      }
+      `https://quoteslate.vercel.app/api/quotes/random?minLength=50&maxLength=150`
     );
 
     res.setHeader("Access-Control-Allow-Origin", "*");
