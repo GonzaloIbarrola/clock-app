@@ -10,7 +10,7 @@ export const useWorldTime = (timezone) =>
         return res.data;
       } catch (err) {
         console.warn("Error fetching time:", err);
-        return null; // fallback a null para no romper la UI
+        return null;
       }
     },
     staleTime: 1000 * 30,
