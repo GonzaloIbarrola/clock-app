@@ -1,3 +1,6 @@
-import { api } from "./axiosInstance";
+import quotes from "../data/randomQuotes.json";
 
-export const getRandomQuote = () => api.get("http://api.quotable.io/random?maxLength=140");
+export const getRandomQuote = () => {
+  const random = quotes[Math.floor(Math.random() * quotes.length)];
+  return random;
+};

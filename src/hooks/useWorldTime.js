@@ -1,11 +1,19 @@
 import { useQuery } from "@tanstack/react-query";
 import { getTimeByTimezone } from "../api/worldtime";
 
-export const useWorldTime = (timezone) => 
+export const useWorldTime = (timezone) =>
   useQuery({
     queryKey: ["time", timezone],
-    queryFn: async () => (await getTimeByTimezone(timezone)).data,
+    queryFn: async () => {
+      try {
+        const res = await getTimeByTimezone(timezone);
+        return res.data;
+      } catch (err) {
+        console.warn("Error fetching time:", err);
+        return null; // fallback a null para no romper la UI
+      }
+    },
     staleTime: 1000 * 30,
     refetchInterval: 1000 * 60,
     enabled: !!timezone,
-  },);
+  });

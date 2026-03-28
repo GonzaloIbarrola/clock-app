@@ -15,7 +15,7 @@ function App() {
   if (isLoading) return <p>Cargando...</p>;
 
   const hours = new Date(time.datetime).getHours().toString().padStart(2, "0");
-  const isNight = hours >= 22 || hours < 5;
+  const isNight = hours >= 20 || hours < 5;
 
   const showToggle = () => setToggle((prev) => !prev);
 

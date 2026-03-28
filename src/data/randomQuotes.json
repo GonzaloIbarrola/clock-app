@@ -1,0 +1,502 @@
+[
+  {
+    "_id": "1OIt8Szmjqjl",
+    "content": "Speak when you are angry, and you will make the best speech you will ever regret.",
+    "author": "Ambrose Bierce",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "ambrose-bierce",
+    "length": 81,
+    "dateAdded": "2019-02-21",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "v-sEMgK7nl",
+    "content": "Technology is teaching us to be human again.",
+    "author": "Simon Mainwaring",
+    "tags": ["Technology"],
+    "authorSlug": "simon-mainwaring",
+    "length": 44,
+    "dateAdded": "2020-03-01",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "2j0J0COgUTmX",
+    "content": "Men are disturbed not by things, but by the view which they take of them.",
+    "author": "Epictetus",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "epictetus",
+    "length": 73,
+    "dateAdded": "2021-05-07",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "tfo24zWoAJ",
+    "content": "It requires wisdom to understand wisdom: the music is nothing if the audience is deaf.",
+    "author": "Walter Lippmann",
+    "tags": ["Wisdom"],
+    "authorSlug": "walter-lippmann",
+    "length": 86,
+    "dateAdded": "2019-02-21",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "EMU3qvO-r3j",
+    "content": "Silence is deep as Eternity; Speech is shallow as Time.",
+    "author": "Thomas Carlyle",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "thomas-carlyle",
+    "length": 55,
+    "dateAdded": "2020-12-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "hSiueg9JMJ",
+    "content": "Rare as is true love, true friendship is rarer.",
+    "author": "Jean de La Fontaine",
+    "tags": ["Friendship"],
+    "authorSlug": "jean-de-la-fontaine",
+    "length": 47,
+    "dateAdded": "2019-03-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "gWcOr2Nlx5H8",
+    "content": "If you lose today, win tomorrow. In this never-ending spirit of challenge is the heart of a victor.",
+    "author": "Daisaku Ikeda",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "daisaku-ikeda",
+    "length": 99,
+    "dateAdded": "2020-02-27",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Yg7xaxX5bj",
+    "author": "Abraham Lincoln",
+    "content": "Government of the people, by the people, for the people, shall not perish from the Earth.",
+    "tags": ["History", "Politics", "Famous Quotes"],
+    "authorSlug": "abraham-lincoln",
+    "length": 89,
+    "dateAdded": "2022-03-12",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "XtZMaD2s28",
+    "author": "Thomas Edison",
+    "content": "If we all did the things we are capable of doing, we would literally astound ourselves.",
+    "tags": ["Inspirational", "Motivational"],
+    "authorSlug": "thomas-edison",
+    "length": 87,
+    "dateAdded": "2023-04-14",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "MJw4V38c9J",
+    "content": "Only I can change my life. No one can do it for me.",
+    "author": "Carol Burnett",
+    "tags": ["Inspirational"],
+    "authorSlug": "carol-burnett",
+    "length": 51,
+    "dateAdded": "2021-01-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "oGDhpm8DK_Jh",
+    "content": "All that we see or seem is but a dream within a dream.",
+    "author": "Edgar Allan Poe",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "edgar-allan-poe",
+    "length": 54,
+    "dateAdded": "2020-01-31",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "U2BywpVWXe",
+    "content": "There are many ways of going forward, but only one way of standing still.",
+    "author": "Franklin D. Roosevelt",
+    "tags": ["Wisdom"],
+    "authorSlug": "franklin-d-roosevelt",
+    "length": 73,
+    "dateAdded": "2020-10-29",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "XhtgckYtfGz",
+    "content": "Ideas are the beginning points of all fortunes.",
+    "author": "Napoleon Hill",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "napoleon-hill",
+    "length": 47,
+    "dateAdded": "2021-04-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "JnLIpceVj6AD",
+    "content": "Either I will find a way, or I will make one.",
+    "author": "Philip Sidney",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "philip-sidney",
+    "length": 45,
+    "dateAdded": "2020-01-26",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Iyw6zzbLWhh",
+    "content": "Do more than dream: work.",
+    "author": "William Arthur Ward",
+    "tags": ["Success"],
+    "authorSlug": "william-arthur-ward",
+    "length": 25,
+    "dateAdded": "2019-02-11",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "tcFPk-72hdRT",
+    "content": "The thoughts we choose to think are the tools we use to paint the canvas of our lives.",
+    "author": "Louise Hay",
+    "tags": ["Famous Quotes", "Life", "Wisdom"],
+    "authorSlug": "louise-hay",
+    "length": 86,
+    "dateAdded": "2019-01-14",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Z5HhvrGNn3_Y",
+    "content": "There is nothing happens to any person but what was in his power to go through with.",
+    "author": "Marcus Aurelius",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "marcus-aurelius",
+    "length": 84,
+    "dateAdded": "2020-03-01",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "q3SfzGZd2iGb",
+    "content": "The most complicated achievements of thought are possible without the assistance of consciousness.",
+    "author": "Sigmund Freud",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "sigmund-freud",
+    "length": 98,
+    "dateAdded": "2020-03-27",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "-GABSGde5f",
+    "content": "Knowledge speaks, but wisdom listens.",
+    "author": "Jimi Hendrix",
+    "tags": ["Wisdom"],
+    "authorSlug": "jimi-hendrix",
+    "length": 37,
+    "dateAdded": "2020-04-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "P1eAf2vWS3ZB",
+    "content": "I do not believe in a fate that falls on men however they act; but I do believe in a fate that falls on man unless they act.",
+    "author": "G. K. Chesterton",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "g-k-chesterton",
+    "length": 124,
+    "dateAdded": "2020-11-13",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "8UvlA-VR9T",
+    "content": "When an opponent comes forward, move in and greet him; if he wants to pull back, send him on his way.",
+    "author": "Morihei Ueshiba",
+    "tags": ["Wisdom"],
+    "authorSlug": "morihei-ueshiba",
+    "length": 101,
+    "dateAdded": "2021-05-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "HncS4FKWNy",
+    "author": "Abraham Lincoln",
+    "content": "I will prepare and some day my chance will come.",
+    "tags": ["Success"],
+    "authorSlug": "abraham-lincoln",
+    "length": 48,
+    "dateAdded": "2022-03-12",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "clw722gWp4m",
+    "content": "The invariable mark of wisdom is to see the miraculous in the common.",
+    "author": "Ralph Waldo Emerson",
+    "tags": ["Wisdom"],
+    "authorSlug": "ralph-waldo-emerson",
+    "length": 69,
+    "dateAdded": "2021-04-23",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "bUM3Kw1GEj8",
+    "content": "You can't stop the waves, but you can learn to surf.",
+    "author": "Jon Kabat-Zinn",
+    "tags": ["Wisdom"],
+    "authorSlug": "jon-kabat-zinn",
+    "length": 52,
+    "dateAdded": "2019-02-11",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "OrbTAJYtKCXr",
+    "content": "Until you value yourself, you won't value your time. Until you value your time, you won't do anything with it.",
+    "author": "M. Scott Peck",
+    "tags": ["Success", "Wisdom"],
+    "authorSlug": "m-scott-peck",
+    "length": 110,
+    "dateAdded": "2021-05-07",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "StQwgV2uHKio",
+    "content": "In seed time learn, in harvest teach, in winter enjoy.",
+    "author": "William Blake",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "william-blake",
+    "length": 54,
+    "dateAdded": "2021-01-20",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "ostJK0TXUf",
+    "author": "Albert Einstein",
+    "content": "Imagination is more important than knowledge...",
+    "tags": ["Imagination", "Knowledge"],
+    "authorSlug": "albert-einstein",
+    "length": 47,
+    "dateAdded": "2023-04-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "yUVQvOdsif",
+    "content": "Technology made large populations possible; large populations now make technology indispensable.",
+    "author": "Joseph Wood Krutch",
+    "tags": ["Technology"],
+    "authorSlug": "joseph-wood-krutch",
+    "length": 96,
+    "dateAdded": "2019-08-16",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Jwct6zGd29m",
+    "content": "Skill to do comes of doing.",
+    "author": "Ralph Waldo Emerson",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "ralph-waldo-emerson",
+    "length": 27,
+    "dateAdded": "2020-12-17",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "rF6UYZ9W4T",
+    "content": "False friendship, like the ivy, decays and ruins the walls it embraces; but true friendship gives new life and animation to the object it supports.",
+    "author": "Richard Burton",
+    "tags": ["Friendship"],
+    "authorSlug": "richard-burton",
+    "length": 147,
+    "dateAdded": "2019-12-14",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "iTpkiibncX",
+    "content": "The greatest achievement of humanity is not its works of art, science, or technology, but the recognition of its own dysfunction.",
+    "author": "Eckhart Tolle",
+    "tags": ["Technology"],
+    "authorSlug": "eckhart-tolle",
+    "length": 129,
+    "dateAdded": "2021-02-27",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "nFRdjQdGL4v5",
+    "content": "Love is never lost. If not reciprocated, it will flow back and soften and purify the heart.",
+    "author": "Washington Irving",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "washington-irving",
+    "length": 91,
+    "dateAdded": "2020-09-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "-0DZUCVFcb",
+    "content": "Friendship is Love without his wings!",
+    "author": "Lord Byron",
+    "tags": ["Friendship"],
+    "authorSlug": "lord-byron",
+    "length": 37,
+    "dateAdded": "2021-03-26",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "4FLFmHaK7-",
+    "author": "Albert Einstein",
+    "content": "It is the supreme art of the teacher to awaken joy in creative expression and knowledge.",
+    "tags": ["Knowledge", "Education"],
+    "authorSlug": "albert-einstein",
+    "length": 88,
+    "dateAdded": "2023-04-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "ckDszJK-0T",
+    "content": "Ignorance and bungling with love are better than wisdom and skill without.",
+    "author": "Henry David Thoreau",
+    "tags": ["Wisdom"],
+    "authorSlug": "henry-david-thoreau",
+    "length": 74,
+    "dateAdded": "2021-04-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "1P5mO2pnBwF",
+    "content": "Life is the flower for which love is the honey.",
+    "author": "Victor Hugo",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "victor-hugo",
+    "length": 47,
+    "dateAdded": "2019-02-17",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "E9q7mXmEBV",
+    "author": "Winston Churchill",
+    "content": "If you're going through hell, keep going.",
+    "tags": ["Inspirational"],
+    "authorSlug": "winston-churchill",
+    "length": 41,
+    "dateAdded": "2022-03-12",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "DtjcWlyBGv",
+    "author": "The Buddha",
+    "content": "Delight in heedfulness! Guard well your thoughts!",
+    "tags": ["Wisdom", "Virtue"],
+    "authorSlug": "the-buddha",
+    "length": 49,
+    "dateAdded": "2023-03-30",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "_8rRJPvOl2we",
+    "content": "Truth, and goodness, and beauty are but different faces of the same all.",
+    "author": "Ralph Waldo Emerson",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "ralph-waldo-emerson",
+    "length": 72,
+    "dateAdded": "2020-02-27",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "k_WpPLnr1hYR",
+    "content": "Love and compassion open our own inner life, reducing stress, distrust and loneliness.",
+    "author": "Dalai Lama",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "dalai-lama",
+    "length": 86,
+    "dateAdded": "2019-08-16",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "KsySq34Vlt3",
+    "content": "There is no greater harm than that of time wasted.",
+    "author": "Michelangelo",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "michelangelo",
+    "length": 50,
+    "dateAdded": "2021-04-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "OSaopvW0IUd",
+    "content": "The more you know yourself, the more you forgive yourself.",
+    "author": "Confucius",
+    "tags": ["Wisdom"],
+    "authorSlug": "confucius",
+    "length": 58,
+    "dateAdded": "2020-03-11",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "B8_nsfJfMx",
+    "content": "Laughter is not at all a bad beginning for a friendship, and it is far the best ending for one.",
+    "author": "Oscar Wilde",
+    "tags": ["Friendship"],
+    "authorSlug": "oscar-wilde",
+    "length": 95,
+    "dateAdded": "2020-11-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "u80cGRXHeCeH",
+    "content": "When you see a good person, think of becoming like him. When you see someone not so good, reflect on your own weak points.",
+    "author": "Confucius",
+    "tags": ["Wisdom"],
+    "authorSlug": "confucius",
+    "length": 122,
+    "dateAdded": "2021-04-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "XpjF4PovtQM7",
+    "content": "Take no thought of who is right or wrong or who is better than. Be not for or against.",
+    "author": "Bruce Lee",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "bruce-lee",
+    "length": 86,
+    "dateAdded": "2019-02-20",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "r7qJ-YKIq2e",
+    "author": "Earl Monroe",
+    "content": "Just be patient. Let the game come to you. Don't rush. Be quick, but don't hurry.",
+    "tags": ["Sports", "Competition"],
+    "authorSlug": "earl-monroe",
+    "length": 81,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "kbd0ItzHwGdq",
+    "content": "If you change the way you look at things, the things you look at change.",
+    "author": "Wayne Dyer",
+    "tags": ["Change", "Wisdom"],
+    "authorSlug": "wayne-dyer",
+    "length": 72,
+    "dateAdded": "2020-07-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "R46KnxnbwR",
+    "content": "In friendship as well as love, ignorance very often contributes more to our happiness than knowledge.",
+    "author": "François de La Rochefoucauld",
+    "tags": ["Friendship"],
+    "authorSlug": "francois-de-la-rochefoucauld",
+    "length": 101,
+    "dateAdded": "2020-12-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "r6gpkIboJCzH",
+    "content": "If you break your neck, if you have nothing to eat, if your house is on fire, then you got a problem. Everything else is inconvenience.",
+    "author": "Robert Fulghum",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "robert-fulghum",
+    "length": 135,
+    "dateAdded": "2020-11-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "qKv9nrdgS0M",
+    "author": "Kyle Chandler",
+    "content": "Opportunity does not knock, it presents itself when you beat down the door.",
+    "tags": ["Motivational"],
+    "authorSlug": "kyle-chandler",
+    "length": 75,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14"
+  }
+]
