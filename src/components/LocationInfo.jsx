@@ -6,7 +6,7 @@ export default function LocationInfo({ data }) {
 
   return (
     <article className="flex md:flex-row flex-col gap-4">
-      <div className="lg:gap-10 md:gap-[38px] gap-4 lg:pr-20 flex flex-col flex-1">
+      <div className="lg:gap-10 md:gap-9.5 gap-4 lg:pr-20 flex flex-col flex-1">
         {/* CURRENT TIMEZONE */}
         <div className="flex justify-between items-center md:flex-col md:items-start md:gap-3">
           <span className="text-[10px] md:text-[15px] leading-[150%] tracking-[2px] md:tracking-[3px] uppercase">

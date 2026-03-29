@@ -27,7 +27,7 @@ function App() {
           : "bg-[url(../src/assets/images/desktop/bg-image-daytime.jpg)]"
       } bg-no-repeat bg-cover box-border`}
     >
-      <div className={`h-screen px-4 py-8 md:p-16 lg:px-41.25 lg:py-16 flex flex-col ${toggle ? "justify-between" : "justify-end gap-[82px] md:gap-[70px] lg:gap-[60px]"}`}>
+      <div className={`h-screen px-4 py-8 md:p-16 lg:px-41.25 lg:py-16 flex flex-col ${toggle ? "justify-between" : "justify-end gap-20.5 md:gap-17.5 lg:gap-15"}`}>
         {/* Quote */}
         <section className={!toggle ? "hidden" : ""}>
           <Quote data={quote} onRefresh={refetch} isFetching={isFetching} />
@@ -46,7 +46,7 @@ function App() {
           className={
             toggle
               ? "hidden"
-              : `${isNight ? "bg-neutral-900/75 **:text-neutral-0" : "bg-neutral-0/75 **:text-neutral-800"} backdrop-blur-xl  md:h-[430px] lg:h-[400px] px-16 py-[112px] -mx-4 -mb-8 md:-mx-16 md:-mb-[60px] lg:px-41.25 lg:py-20 lg:-mx-41.25 lg:-mb-15.75`
+              : `${isNight ? "bg-neutral-900/75 **:text-neutral-0" : "bg-neutral-0/75 **:text-neutral-800"} backdrop-blur-xl  md:h-107.5 lg:h-[400px] px-16 py-28 -mx-4 -mb-8 md:-mx-16 md:-mb-15 lg:px-41.25 lg:py-20 lg:-mx-41.25 lg:-mb-15.75`
           }
         >
           <LocationInfo data={time} />
