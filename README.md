@@ -1,16 +1,26 @@
-# React + Vite
+# Clock App 🕰️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta app muestra la hora actual según la zona horaria del usuario, una cita aleatoria del día y datos de ubicación obtenidos a partir de la IP. El diseño cambia entre modo día y noche en función de la hora local.
 
-Currently, two official plugins are available:
+## 🚀 Demo
+🔗 https://gonzaloibarrola.github.io/clock-app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+- Geolocalización por IP para determinar la zona horaria
+- Hora actual formateada y actualizada desde la API de tiempo mundial
+- Cita inspiradora aleatoria con opción de refrescar
+- Cambia la apariencia entre día y noche
+- Diseño responsive para móvil, tablet y escritorio
 
-## React Compiler
+## 🛠️ Tech Stack
+- Vite
+- Tailwind CSS
+- React Query
+- Axios
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura principal
+- `src/App.jsx`: componente principal que orquesta la lógica de la app
+- `src/hooks/`: hooks personalizados para geolocalización, hora mundial y citas
+- `src/components/`: componentes reutilizables de UI
+- `src/api/`: funciones para llamadas HTTP a servicios externos
+- `src/assets/`: imágenes y recursos estáticos
