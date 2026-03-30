@@ -1,10 +1,11 @@
 import Sun from "../assets/images/desktop/icon-sun.svg";
 import Moon from "../assets/images/desktop/icon-moon.svg";
 import { parseTimeData } from "../controllers/index.js";
+import { timezone } from "../api/worldtime.js";
 
 export default function Time({ data,hour,width,isNight }) {
   const parsed = parseTimeData(data);
-  const { formattedTime, formattedLocation } = parsed;
+  const { formattedTime, formattedLocation, timezoneParsed } = parsed;
 
   return (
     <article className="flex flex-col gap-6 md:gap-10">
@@ -17,7 +18,7 @@ export default function Time({ data,hour,width,isNight }) {
           {formattedTime}
         </h1>
         <h6 className="md:text-[40px] text-[20px] leading-[73%] uppercase">
-          UTC
+          UTC {timezoneParsed}
         </h6>
       </div>
       <div>

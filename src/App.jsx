@@ -1,17 +1,17 @@
 import "./App.css";
 import { useState } from "react";
-import { useQuote, useIPGeolocation, useWorldTime } from "./hooks";
+import { useQuote, useWorldTime } from "./hooks";
+import { timezone } from "./api/worldtime";
 import { Quote, Button, Time, LocationInfo } from "./components";
 import { useScreenSize } from "./controllers";
 
 function App() {
   const { width } = useScreenSize();
   const { data: quote,isLoading: quoteLoading,refetch,isFetching } = useQuote();
-  const { data: ipInfo, isLoading: ipLoading } = useIPGeolocation();
-  const { data: time, isLoading: timeLoading } = useWorldTime(ipInfo?.timezone || "Etc/UTC");
+  const { data: time, isLoading: timeLoading } = useWorldTime(timezone);
 
   const [toggle, setToggle] = useState(true);
-  const isLoading = ipLoading || timeLoading || quoteLoading;
+  const isLoading = timeLoading || quoteLoading;
   if (isLoading) return <p>Cargando...</p>;
 
   const hours = new Date(time.datetime).getHours().toString().padStart(2, "0");

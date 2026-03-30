@@ -1,4 +1,6 @@
 import { api } from "./axiosInstance";
 
-export const getTimeByTimezone = (timezone = "Etc/UTC") =>
+export const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+export const getTimeByTimezone = () =>
   api.get(`https://worldtimeapi.org/api/timezone/${timezone}`);

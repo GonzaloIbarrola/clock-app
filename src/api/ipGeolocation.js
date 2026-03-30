@@ -1,4 +1,4 @@
-import { api } from "./axiosInstance";
+// import { api } from "./axiosInstance";
 
-export const getIPInfo = (ip = "", format = "json") => 
-  api.get(`https://ipapi.co/${ip}/${format}/`);
+// export const getIPInfo = (ip = "", format = "json") => 
+//   api.get(`https://ipapi.co/${ip}/${format}/`);

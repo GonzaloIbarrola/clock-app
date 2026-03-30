@@ -1,4 +1,5 @@
 export function parseTimeData(data) {
+  console.log(data)
   if (!data) return null;
 
   const time = new Date(data.datetime);
@@ -9,6 +10,7 @@ export function parseTimeData(data) {
     hour : hours,
     // Parsea formato de hora recibido a HH:MM
     formattedTime: `${hours}:${minutes}`,
+    timezoneParsed: data.utc_offset.toString().slice(0, 3), // Parsea formato de UTC recibido a UTC+X o UTC-X.
     // Parsea formato de location recibido(America/Argentina/Buenos_Aires) cortando lo anterior al primer /.
     formattedLocation: data.timezone
       ? data.timezone
