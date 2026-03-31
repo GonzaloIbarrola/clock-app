@@ -23,8 +23,8 @@ function App() {
     <main
       className={`flex flex-col justify-between bg-black/40 bg-blend-darken ${
         isNight
-          ? "bg-[url(../src/assets/images/desktop/bg-image-nighttime.jpg)]"
-          : "bg-[url(../src/assets/images/desktop/bg-image-daytime.jpg)]"
+          ? "bg-[url('./assets/images/desktop/bg-image-nighttime.jpg)']"
+          : "bg-[url('./assets/images/desktop/bg-image-daytime.jpg)']"
       } bg-no-repeat bg-cover box-border`}
     >
       <div className={`h-screen px-4 py-8 md:p-16 lg:px-41.25 lg:py-16 flex flex-col ${toggle ? "justify-between" : "justify-end gap-20.5 md:gap-17.5 lg:gap-15"}`}>

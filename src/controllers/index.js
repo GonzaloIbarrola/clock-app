@@ -1,5 +1,4 @@
 export function parseTimeData(data) {
-  console.log(data)
   if (!data) return null;
 
   const time = new Date(data.datetime);
