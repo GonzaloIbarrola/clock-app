@@ -23,7 +23,7 @@ export default function LocationInfo({ data }) {
             day of the year
           </span>
           <h3 className="text-[20px] md:text-[40px] lg:text[56px] font-bold leading-[120%] capitalize">
-            {data.day_of_year}
+            {data?.day_of_year ?? "-"}
           </h3>
         </div>
       </div>
@@ -35,7 +35,7 @@ export default function LocationInfo({ data }) {
             day of the week
           </span>
           <h3 className="text-[20px] md:text-[40px] lg:text[56px] font-bold leading-[120%] capitalize">
-            {data.day_of_week}
+            {data?.day_of_week ?? "-"}
           </h3>
         </div>
 
@@ -45,7 +45,7 @@ export default function LocationInfo({ data }) {
             week number
           </span>
           <h3 className="text-[20px] md:text-[40px] lg:text[56px] font-bold leading-[120%] capitalize">
-            {data.week_number}
+            {data?.week_number ?? "-"}
           </h3>
         </div>
       </div>

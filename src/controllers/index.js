@@ -1,15 +1,27 @@
 export function parseTimeData(data) {
-  if (!data) return null;
+  if (!data) {
+    const now = new Date();
 
-  const time = new Date(data.datetime);
-  const hours = time.getHours().toString().padStart(2, "0");
-  const minutes = time.getMinutes().toString().padStart(2, "0");
+    return {
+      hour: now.getHours().toString().padStart(2, "0"),
+      formattedTime: `${now.getHours().toString().padStart(2, "0")}:${now
+        .getMinutes()
+        .toString()
+        .padStart(2, "0")}`,
+      timezoneParsed: "",
+      formattedLocation: "",
+    };
+  }
+
+  const fallbackTime = new Date(data.datetime ?? Date.now());
+  const hours = data.hour ?? fallbackTime.getHours().toString().padStart(2, "0");
+  const minutes = data.minute ?? fallbackTime.getMinutes().toString().padStart(2, "0");
 
   return {
     hour : hours,
     // Parsea formato de hora recibido a HH:MM
-    formattedTime: `${hours}:${minutes}`,
-    timezoneParsed: data.utc_offset.toString().slice(0, 3), // Parsea formato de UTC recibido a UTC+X o UTC-X.
+    formattedTime: data.formattedTime ?? `${hours}:${minutes}`,
+    timezoneParsed: data.utc_offset?.toString().slice(0, 3) ?? "", // Parsea formato de UTC recibido a UTC+X o UTC-X.
     // Parsea formato de location recibido(America/Argentina/Buenos_Aires) cortando lo anterior al primer /.
     formattedLocation: data.timezone
       ? data.timezone

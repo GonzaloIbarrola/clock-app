@@ -1,20 +1,20 @@
 import "./App.css";
 import { useState } from "react";
 import { useQuote, useWorldTime } from "./hooks";
-import { timezone } from "./api/worldtime";
 import { Quote, Button, Time, LocationInfo } from "./components";
 import { useScreenSize } from "./controllers";
 
 function App() {
   const { width } = useScreenSize();
   const { data: quote,isLoading: quoteLoading,refetch,isFetching } = useQuote();
-  const { data: time, isLoading: timeLoading } = useWorldTime(timezone);
+  const { data: time, isLoading: timeLoading } = useWorldTime();
 
   const [toggle, setToggle] = useState(true);
   const isLoading = timeLoading || quoteLoading;
   if (isLoading) return <p>Cargando...</p>;
+  if (!time) return <p>No se pudo cargar la hora.</p>;
 
-  const hours = new Date(time.datetime).getHours().toString().padStart(2, "0");
+  const hours = time.hour;
   const isNight = hours >= 20 || hours < 5;
 
   const showToggle = () => setToggle((prev) => !prev);
@@ -35,7 +35,7 @@ function App() {
 
         {/* Time */}
         <section className={`flex lg:flex-row flex-col lg:justify-between lg:items-end lg:flex-1 gap-16 md:gap-20`}>
-          <Time hour={hours} isNight={isNight} data={time} width={width} />
+          <Time isNight={isNight} data={time} width={width} />
           <div>
             <Button showToggle={showToggle} toggle={toggle} />
           </div>

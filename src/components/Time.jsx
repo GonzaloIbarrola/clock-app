@@ -1,9 +1,8 @@
 import Sun from "../assets/images/desktop/icon-sun.svg";
 import Moon from "../assets/images/desktop/icon-moon.svg";
 import { parseTimeData } from "../controllers/index.js";
-import { timezone } from "../api/worldtime.js";
 
-export default function Time({ data,hour,width,isNight }) {
+export default function Time({ data,width,isNight }) {
   const parsed = parseTimeData(data);
   const { formattedTime, formattedLocation, timezoneParsed } = parsed;
 
@@ -11,7 +10,7 @@ export default function Time({ data,hour,width,isNight }) {
     <article className="flex flex-col gap-6 md:gap-10">
       <div className="text-neutral-0 uppercase font-light text-[20px] leading-[110%] tracking-[4px] flex gap-4">
         <img src={isNight ? Moon : Sun} alt="Sun logo" />
-        <span>good {isNight ? "night" : "morning"}{width > 500 ? ", it´s currently" : " "}</span>
+        <span>good {isNight ? "night" : "morning"}{width > 500 ? ", it's currently" : " "}</span>
       </div>
       <div className="text-neutral-0 flex items-baseline">
         <h1 className="md:text-[200px] font-bold leading-[73%] md:tracking-[-5px] text-[100px] tracking-[-2.5px]">
