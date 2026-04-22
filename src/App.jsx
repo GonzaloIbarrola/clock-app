@@ -3,6 +3,8 @@ import { useState } from "react";
 import { useQuote, useWorldTime } from "./hooks";
 import { Quote, Button, Time, LocationInfo } from "./components";
 import { useScreenSize } from "./controllers";
+import daytimeBackground from "./assets/images/desktop/bg-image-daytime.jpg";
+import nighttimeBackground from "./assets/images/desktop/bg-image-nighttime.jpg";
 
 function App() {
   const { width } = useScreenSize();
@@ -16,16 +18,14 @@ function App() {
 
   const hours = time.hour;
   const isNight = hours >= 20 || hours < 5;
+  const backgroundImage = isNight ? nighttimeBackground : daytimeBackground;
 
   const showToggle = () => setToggle((prev) => !prev);
 
   return (
     <main
-      className={`flex flex-col justify-between bg-black/40 bg-blend-darken ${
-        isNight
-          ? "bg-[url('./assets/images/desktop/bg-image-nighttime.jpg)']"
-          : "bg-[url('./assets/images/desktop/bg-image-daytime.jpg)']"
-      } bg-no-repeat bg-cover box-border`}
+      className="flex flex-col justify-between bg-black/40 bg-blend-darken bg-no-repeat bg-cover box-border"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className={`h-screen px-4 py-8 md:p-16 lg:px-41.25 lg:py-16 flex flex-col ${toggle ? "justify-between" : "justify-end gap-20.5 md:gap-17.5 lg:gap-15"}`}>
         {/* Quote */}
